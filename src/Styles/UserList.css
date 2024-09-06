@@ -1,0 +1,51 @@
+.user-list {
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.user-item {
+  background-color: #ffffff;
+  border: 1px solid #eeebeb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-item p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.user-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.user-item button:hover {
+  background-color: #c0392b;
+}
+
+.pagination {
+  margin-top: 1rem;
+}
+
+.pagination button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0.25rem;
+}
+
+.pagination button:hover {
+  background-color: #2980b9;
+}
