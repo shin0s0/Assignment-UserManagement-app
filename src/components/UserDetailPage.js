@@ -28,7 +28,6 @@ const UserDetailPage = ({ setLoading }) => {
 
   return (
     <div className="user-detail">
-      <h2>Edit User</h2>
       {user && <UserForm user={user} setLoading={setLoading} />}
       {/* Render UserForm with user data */}
     </div>
